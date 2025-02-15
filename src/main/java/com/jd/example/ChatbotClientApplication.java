@@ -1,13 +1,13 @@
-package com.jd.spring.ai;
+package com.jd.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JdAiChatAppApplication {
+public class ChatbotClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JdAiChatAppApplication.class, args);
+		SpringApplication.run(ChatbotClientApplication.class, args);
 	}
 
 }
